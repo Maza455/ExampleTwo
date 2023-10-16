@@ -1,0 +1,27 @@
+/* body {
+    text-align: center;
+} */
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+}
+
+#box1 {
+    /* background-color: green;
+    width: 150px; */
+    color: white;
+    box-sizing: content-box;
+    margin: 20px;
+    padding: 10px;
+}
+
+#box2 {
+    background-color: darkgrey;
+    width: 300px;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+}
